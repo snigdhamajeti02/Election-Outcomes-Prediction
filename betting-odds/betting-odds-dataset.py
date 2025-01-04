@@ -40,5 +40,13 @@ for file_path, year in file_paths:
 # Concatenate all DataFrames and remove duplicates
 combined_df = pd.concat(dfs, ignore_index=True).drop_duplicates().reset_index(drop=True)
 
+# Check for null values and print appropriate message
+null_counts = combined_df.isnull().sum()
+if null_counts.any():
+    print("There are null values in the following columns:")
+    print(null_counts[null_counts > 0])
+else:
+    print("There are no null values in any columns.")
+
 # Save the final DataFrame to CSV
 combined_df.to_csv('US_Betting_Odds.csv', index=False)
