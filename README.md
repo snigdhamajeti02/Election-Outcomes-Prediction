@@ -1,6 +1,9 @@
 # Election-Outcomes-Prediction
 A machine learning model designed to predict election outcomes at the county level based on historical and demographic data. 
 
+# Instructions
+Download the repo as a .zip file and follow Environment Setup section to setup the environment to run model notebooks.
+
 # Datasets
 
 - `betting-odds` - Betting Odds Dataset
