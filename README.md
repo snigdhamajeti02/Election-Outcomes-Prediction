@@ -20,3 +20,10 @@ A machine learning model designed to predict election outcomes at the county lev
   -  `multimodal-neuralnetwork.ipynb` - Multimodal Neural Network Notebook
   -  `multimodal-nn.keras` - Multimodal Neural Network saved in .keras format
   -  `feature-fusion-model.ipynb` - Feature Fusion Model Notebook
+
+# Environment Setup
+- `environment.yml` - Environment yaml file
+
+To create the environment, run `conda env create -f environment.yml --name election-outcomes`.
+
+Activate the environment, run `conda actiavte election-outcomes` or use this environment in visual studio code to run notebooks.
