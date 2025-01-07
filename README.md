@@ -24,6 +24,6 @@ A machine learning model designed to predict election outcomes at the county lev
 # Environment Setup
 - `environment.yml` - Environment yaml file
 
-To create the environment, run `conda env create -f environment.yml --name election-outcomes`.
+To create the environment, run `conda env create -f environment.yml --name election-outcomes`
 
 Activate the environment, run `conda actiavte election-outcomes` or use this environment in visual studio code to run notebooks.
